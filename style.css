@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url("images/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg");
+  background-size: cover;
+}
+
+.nav-link:hover{
+  color: yellow !important ;
+}
+
+h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+/* .row{
+  background-color: white;
+  border-radius: 100px;
+  width:80em;
+} */
+
+.gradient-bg {
+  background: linear-gradient(to right, #000000, #2f1b68); /* Customize the gradient colors */
+  color: #fff; /* Set text color to white */
+  padding: 50px;
+  border-radius: 30px;
+}
+
+
+
+#loginpic{
+  border-radius: 30px;
+}
+
+
+.footer {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff; /* Change the text color to white */
+}
+
+
+
+
+.table-container {
+  margin: 50px auto;
+  max-width: 800px;
+  border: 10px solid grey;
+  border-radius: 10px;
+}
+
+.table {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 10 100px rgba(0, 0, 0, 0.5);
+}
+
+.table thead th {
+  background-color: #5c84f3;
+  color: #080808;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+
+}
+
+.table tbody td {
+  background-color: #fff;
+  color: #424242;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.table tbody tr:hover td {
+  background-color: #f1f1f1;
+}
+  
